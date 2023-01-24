@@ -7,7 +7,7 @@
 
 /*Element Selectors */
 body {
-  background-image: url("../images/cool-background.png");
+  background-color: #173444;
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
@@ -24,6 +24,7 @@ h2 {
 
 h1 {
   margin: 50px;
+  font-size: 2.5em;
 }
 
 main {
@@ -51,7 +52,7 @@ footer {
 
 header {
   position: fixed;
-  border-bottom: 10px solid #1d3557;
+  border-bottom: 2px solid #fdf8f5;
 }
 
 footer {
@@ -67,7 +68,7 @@ figure {
 
 figcaption {
   margin: auto;
-  
+  font-size: 1.25em;
 }
 
 img {
@@ -81,7 +82,7 @@ section {
   padding: 20px 10px 40px 10px;
   border-top: 3px solid #1d3557;
   background-color: #eef2f5;
-  color: #1d3557;
+  color: #173444;
 }
 
 form {
@@ -117,6 +118,10 @@ button {
   color: #fdf8f5;
 }
 
+nav {
+  font-size: 1.15em;
+}
+
 .info {
   max-width: 1000px;
 }
@@ -128,4 +133,8 @@ button {
 
 .text-right {
   text-align: right;
+}
+
+input {
+  font-family: "Courier New", Courier, monospace;
 }
